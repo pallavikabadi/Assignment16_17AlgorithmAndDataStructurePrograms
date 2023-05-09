@@ -7,6 +7,8 @@ public class BubbleSort {
 
         int array[]= {6,8,5,9,2};
         System.out.println("Array before Sorting : " + Arrays.toString(array));
+        System.out.println("Array before Sorting : " + array);
+
         int n = array.length;
 
         for (int i=0; i<n-1; i++) {

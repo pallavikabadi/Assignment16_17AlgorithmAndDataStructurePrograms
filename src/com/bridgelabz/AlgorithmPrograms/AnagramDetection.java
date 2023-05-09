@@ -18,12 +18,12 @@ public class AnagramDetection {
 //Sorting:
             Arrays.sort(array1);
             Arrays.sort(array2);
-
+//Storing in new array
             String sortedString1 = new String(array1);
 
             String sortedString2 = new String(array2);
 
-            if (sortedString1.equals(sortedString2))
+            if (sortedString1.equals(sortedString2))    //check values of string
                 System.out.println("Two Strings are Anagram.");
             else
                 System.out.println("Strings are NOT Anagram");
